@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ikan Travel — tailored private tours, all-inclusive holiday packages, and unforgettable Sri Lanka adventures. To know your self.">
+  <meta name="keywords" content="Sri Lanka tourism, Sri Lanka tour packages, travel Sri Lanka, private tours Sri Lanka, Ikan Travel, Colombo, Kandy, Galle, wildlife safari Sri Lanka, cultural triangle tour">
+  <title>Ikan Travel Sri Lanka | Tailored Tours &amp; Holiday Packages</title>
+  <link rel="icon" href="images/final-logo.jpg" type="image/jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= Header / Nav ================= -->
+  <header>
+    <div class="container">
+      <a href="#home" class="logo-link">
+        <img src="images/final-logo.png" alt="Ikan Travel Logo" class="logo-img">
+      </a>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= Hero ================= -->
+    <section class="hero" id="home">
+      <div class="hero-topo" aria-hidden="true">
+        <svg viewBox="0 0 1440 800" preserveAspectRatio="xMidYMax slice">
+          <path d="M0,620 C120,560 200,660 320,600 C420,550 480,460 560,500 C640,540 660,420 760,380 C860,340 900,460 1000,480 C1120,505 1180,440 1440,520 L1440,800 L0,800 Z" fill="#1a3128" opacity="0.7"/>
+          <path d="M0,680 C160,640 260,700 380,660 C500,620 560,560 660,600 C760,640 820,560 940,580 C1060,600 1140,560 1440,640 L1440,800 L0,800 Z" fill="#152a22" opacity="0.9"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-content reveal is-visible">
+          <span class="eyebrow">Colombo → Anywhere in Sri Lanka</span>
+          <h1>Discover your <em>perfect</em> Sri&nbsp;Lanka adventure</h1>
+          <p>Private, tailor-made journeys across the pearl of the Indian Ocean — ancient cities, wild coastlines, tea-country peaks, and everything between. Planned by people who actually know these roads.</p>
+          <div class="hero-ctas">
+            <a href="#packages" class="btn-primary">Explore packages</a>
+            <a href="#contact" class="btn-ghost">Plan a private trip</a>
+          </div>
+        </div>
+
+        <div class="hero-passport reveal is-visible" aria-hidden="true">
+          <svg viewBox="0 0 400 424" fill="none">
+            <rect x="1" y="1" width="398" height="422" rx="16" stroke="rgba(239,230,210,0.25)" stroke-width="1.5"/>
+            <!-- flight path -->
+            <path class="flight-path" d="M60,340 C120,260 90,180 150,140 C200,105 230,150 270,110 C300,80 300,60 335,45"/>
+            <circle cx="60" cy="340" r="4" fill="#c89b3c"/>
+            <circle cx="335" cy="45" r="4" fill="#c89b3c"/>
+            <!-- passport stamp: mountains -->
+            <g class="stamp" transform="translate(200,190) rotate(-8)">
+              <circle cx="0" cy="0" r="92" stroke="#c1503a" stroke-width="1.6" stroke-dasharray="3 5" fill="none"/>
+              <circle cx="0" cy="0" r="78" stroke="#c1503a" stroke-width="1" fill="none" opacity="0.6"/>
+              <path d="M-46,20 L-24,-16 L-8,4 L14,-30 L46,20 Z" fill="none" stroke="#efe6d2" stroke-width="2.4" stroke-linejoin="round"/>
+              <text x="0" y="-52" text-anchor="middle" fill="#efe6d2" font-family="Space Mono, monospace" font-size="10" letter-spacing="3">SRI LANKA</text>
+              <text x="0" y="58" text-anchor="middle" fill="#efe6d2" font-family="Space Mono, monospace" font-size="9" letter-spacing="2">EST. 2010</text>
+              <text x="0" y="72" text-anchor="middle" fill="#c89b3c" font-family="Space Mono, monospace" font-size="8" letter-spacing="2">IKAN TRAVEL</text>
+            </g>
+            <!-- ticket stub corner -->
+            <g transform="translate(30,30)">
+              <text x="0" y="0" fill="rgba(239,230,210,0.5)" font-family="Space Mono, monospace" font-size="9" letter-spacing="2">BOARDING</text>
+              <text x="0" y="14" fill="#efe6d2" font-family="Space Mono, monospace" font-size="9" letter-spacing="2">PASS · 1</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero-scroll-cue">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </section>
+
+    <!-- ================= Features ================= -->
+    <section class="features" id="why-us">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why travel with us</span>
+          <h2>Three stamps in every itinerary</h2>
+          <p>Every Ikan Travel trip is checked against the same marks — the ones we'd want on our own passport.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <span class="feature-index">01</span>
+            <div class="feature-stamp"><i class="fas fa-map-marked-alt"></i></div>
+            <h3>Best destinations</h3>
+            <p>Routes built around the places worth the detour — not just the ones on every brochure.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <span class="feature-index">02</span>
+            <div class="feature-stamp"><i class="fas fa-hotel"></i></div>
+            <h3>Quality hotels</h3>
+            <p>From boutique tea bungalows to beachfront villas, vetted by our own team before they make the list.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <span class="feature-index">03</span>
+            <div class="feature-stamp"><i class="fas fa-camera"></i></div>
+            <h3>Photo tours</h3>
+            <p>Guides who know the light, the tides, and the exact minute the mist clears over the hills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= About ================= -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-visual reveal">
+          <svg viewBox="0 0 240 240" fill="none" aria-hidden="true">
+            <circle cx="120" cy="120" r="100" stroke="#c89b3c" stroke-width="1" stroke-dasharray="2 6" opacity="0.6"/>
+            <path d="M30,150 L70,90 L95,120 L130,60 L210,150 Z" fill="none" stroke="#efe6d2" stroke-width="2.5" stroke-linejoin="round"/>
+            <circle cx="150" cy="55" r="10" fill="#c1503a"/>
+          </svg>
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="eyebrow">About I Kan Travel</span>
+          <h2>Welcome to I Kan Travel — where every journey begins with passion</h2>
+          <p>Travel with us to know your self.</p>
+          <p>Incorporated in 2024, I Kan Travel is more than a brand — it's a heartfelt vision brought to life with a deep commitment to redefining the travel experience in Sri Lanka. Founded by Iyakannu Harun, a passionate explorer whose footsteps have touched every corner of the island, the company was born from a profound love for tourism and a belief in the transformative power of travel.</p>
+          <p>Harun's journey across Sri Lanka didn't just ignite a passion — it shaped a philosophy. For him, travel is not merely movement from place to place, but a mindful experience: a way of connecting with people, culture, and nature on a deeper level. That philosophy is the heartbeat of I Kan Travel.</p>
+          <p>We go beyond sightseeing. We're here to understand the needs of travelers, not only to help them explore but to educate and inspire through authentic experiences — tourism that is inclusive, enriching, and respectful. Let us take you on a journey that doesn't just show you Sri Lanka, but lets you feel it, live it, and understand it.</p>
+
+          <div class="about-stats">
+            <div><strong>2024</strong><span>Founded</span></div>
+            <div><strong>60+</strong><span>Curated stays</span></div>
+            <div><strong>4,200</strong><span>Travellers hosted</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Team ================= -->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Meet the team</span>
+          <h2>The people behind the itinerary</h2>
+          <p>A small crew, spread across the island, working every route by hand.</p>
+        </div>
+
+        <div class="team-grid team-grid-3">
+          <div class="team-card team-card-clickable reveal" id="founder-card" role="button" tabindex="0" aria-haspopup="dialog" aria-controls="founder-modal">
+            <div class="team-avatar" style="background:linear-gradient(135deg,#c1503a,#9c3d2a);">
+              <img src="images/harun.png" alt="Harun Iyakannu" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="team-avatar-fallback">HI</span>
+            </div>
+            <strong>Harun Iyakannu</strong>
+            <span>Founder &amp; CEO</span>
+            <span class="team-card-hint">Read founder's note</span>
+          </div>
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:linear-gradient(135deg,#2f6f4e,#12241c);">
+              <img src="images/ashok.jpg" alt="Balasubramaniyam Ashok" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="team-avatar-fallback">BA</span>
+            </div>
+            <strong>Balasubramaniyam Ashok</strong>
+            <span>Managing Director</span>
+          </div>
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:linear-gradient(135deg,#234f38,#2f6f4e);">
+              <img src="images/manjula.png" alt="Manjula Abhayanayake" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="team-avatar-fallback">MA</span>
+            </div>
+            <strong>Manjula Abhayanayake</strong>
+            <span>Head of Digital Marketing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder's Note Modal -->
+    <div class="founder-modal" id="founder-modal" role="dialog" aria-modal="true" aria-labelledby="founder-modal-title">
+      <div class="founder-modal-panel">
+        <button class="founder-modal-close" id="founder-modal-close" aria-label="Close">&times;</button>
+
+        <div class="founder-modal-avatar">
+          <img src="images/harun.png" alt="Harun Iyakannu" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="team-avatar-fallback">HI</span>
+        </div>
+
+        <span class="eyebrow" id="founder-modal-title">Founder's note</span>
+        <p>"As a native of the beautiful Hill Country of Sri Lanka, my journey began in the structured world of banking. Over the years I served in many parts of the country, and although I always had a passion for travel, my career often left little time for it — yet I never missed a chance to explore this island whenever I could.</p>
+        <p>This island, our paradise, is truly special. Every corner tells a unique story, each place offering its own feeling, message, and soul — from misty mountains to golden beaches, ancient temples to vibrant villages. Through my travels I didn't just discover the country, I discovered myself, and found clarity about who I am and what truly matters to me.</p>
+        <p>That realization led me to a new calling: meaningful tourism. My wish is to create experiences that educate, inspire, and connect people deeply to the heart of Sri Lanka — to celebrate our land, our culture, and our identity."</p>
+
+        <div class="founder-signoff">
+          <strong>Iyakannu Harun</strong>
+          <span>Founder, I Kan Travel</span>
+        </div>
+      </div>
+    </div>
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our services</span>
+          <h2>Everything between the airport and the last sunset</h2>
+          <p>Choose a full private itinerary, or pull in just the pieces you need.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <span class="num">01</span>
+            <h3>Private tours</h3>
+            <p>Fully custom routes, paced and priced around your group alone.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="num">02</span>
+            <h3>Airport transfers</h3>
+            <p>Air-conditioned pickups timed to your flight, day or night.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="num">03</span>
+            <h3>Hotel curation</h3>
+            <p>Stays hand-checked for character, comfort, and honest value.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="num">04</span>
+            <h3>Local guides</h3>
+            <p>English-speaking guides native to the region you're exploring.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Packages ================= -->
+    <section class="packages dark-section" id="packages">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Tour packages</span>
+          <h2>Twelve routes across the island</h2>
+          <p>Every package below is a starting point — durations and stops flex to match your pace.</p>
+        </div>
+
+        <div class="packages-toolbar reveal">
+          <input type="text" id="package-search" placeholder="Search a package… e.g. wildlife" aria-label="Search packages">
+          <span class="packages-count" id="package-count">12 / 12 journeys</span>
+        </div>
+
+        <div class="packages-grid">
+
+          <div class="package-card reveal" data-name="Cultural Triangle Tour">
+            <div class="package-image">
+              <img src="images/cultural.jpg" alt="Cultural Triangle Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#2f6f4e,#12241c);"><span>Cultural Triangle</span></div>
+              <span class="package-image-caption">Cultural Triangle</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Cultural Triangle Tour</h3>
+              <p>Ancient cities, temples, and UNESCO World Heritage sites.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 4N / 5D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Beach Getaway">
+            <div class="package-image">
+              <img src="images/beach-getaway.jpg" alt="Beach Getaway" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#c1503a,#9c3d2a);"><span>Beach Getaway</span></div>
+              <span class="package-image-caption">Beach Getaway</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Beach Getaway</h3>
+              <p>Pristine beaches, water sports, and slow coastal evenings.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 6N / 7D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Wildlife Safari">
+            <div class="package-image">
+              <img src="images/wildlife-safari.jpg" alt="Wildlife Safari" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#c89b3c,#9c3d2a);"><span>Wildlife Safari</span></div>
+              <span class="package-image-caption">Wildlife Safari</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Wildlife Safari</h3>
+              <p>Elephants, leopards, and exotic birds in their natural habitat.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 3N / 4D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Tea Country Adventure">
+            <div class="package-image">
+              <img src="images/tea-country-adventure.jpg" alt="Tea Country Adventure" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#234f38,#12241c);"><span>Tea Country</span></div>
+              <span class="package-image-caption">Tea Country</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Tea Country Adventure</h3>
+              <p>Lush hill country, misty peaks, and working tea plantations.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 5N / 6D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Yoga Wellness Retreat">
+            <div class="package-image">
+              <img src="images/yoga-wellness-retreat.jpg" alt="Yoga &amp; Wellness Retreat" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#2f6f4e,#c89b3c);"><span>Yoga &amp; Wellness</span></div>
+              <span class="package-image-caption">Yoga &amp; Wellness</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Yoga &amp; Wellness Retreat</h3>
+              <p>Rejuvenate mind and body with yoga and Ayurveda.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 7N / 8D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Ultimate Sri Lanka Tour">
+            <div class="package-image">
+              <img src="images/ultimate-srilanka-tour.jpg" alt="Ultimate Sri Lanka Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#9c3d2a,#12241c);"><span>Ultimate Tour</span></div>
+              <span class="package-image-caption">Ultimate Tour</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Ultimate Sri Lanka Tour</h3>
+              <p>Comprehensive route covering all major attractions.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 11N / 12D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="7-Day Hiking Itinerary">
+            <div class="package-image">
+              <img src="images/hiking-itinerary.jpg" alt="7-Day Hiking Itinerary" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#234f38,#2f6f4e);"><span>🥾 Hiking Trail</span></div>
+              <span class="package-image-caption">🥾 Hiking Trail</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>7-Day Hiking Itinerary</h3>
+              <p>Sri Lanka's mountains and nature trails, on foot.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 6N / 7D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Best of Sri Lanka Tour">
+            <div class="package-image">
+              <img src="images/best-sri-lanka.jpg" alt="Best of Sri Lanka Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#c1503a,#c89b3c);"><span>🇱🇰 Best of Sri Lanka</span></div>
+              <span class="package-image-caption">🇱🇰 Best of Sri Lanka</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Best of Sri Lanka Tour</h3>
+              <p>Culture, nature, wildlife, and beaches — all in one.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 9N / 10D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="The Best With Nature Misty">
+            <div class="package-image">
+              <img src="images/misty.png" alt="The Best With Nature Misty" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#12241c,#2f6f4e);"><span>Misty Nature</span></div>
+              <span class="package-image-caption">Misty Nature</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>The Best With Nature Misty</h3>
+              <p>Culture, nature, wildlife, and beaches — all in one.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 9N / 10D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Kovil and Temple Pilgrimage">
+            <div class="package-image">
+              <img src="images/kovil.jpg" alt="Kovil and Temple Pilgrimage" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#c89b3c,#234f38);"><span>Kovil &amp; Temple</span></div>
+              <span class="package-image-caption">Kovil &amp; Temple</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Kovil &amp; Temple Pilgrimage</h3>
+              <p>A spiritual journey through Sri Lanka's sacred Hindu temples.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 6N / 7D</span>
+                <span><i class="fas fa-user-friends"></i> Private / small groups</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Rama Ravana Special">
+            <div class="package-image">
+              <img src="images/ramayana.jpg" alt="Rama Ravana Special Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#9c3d2a,#c1503a);"><span>Rama Ravana</span></div>
+              <span class="package-image-caption">Rama Ravana</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Rama Ravana Special</h3>
+              <p>Follow the epic Ramayana trail through Sri Lanka's sacred sites.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 6N / 7D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card reveal" data-name="Coastal Photo Expedition">
+            <div class="package-image" style="background:linear-gradient(135deg,#2f6f4e,#9c3d2a);"><span>Coastal Photo Trip</span></div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Coastal Photo Expedition</h3>
+              <p>Stilt fishermen, golden coastlines, and low-light harbours.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 4N / 5D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Special Offers ================= -->
+    <section class="special-offers dark-section">
+      <div class="container">
+        <div class="offer-banner reveal">
+          <span class="eyebrow">Limited time</span>
+          <h3>Early bird discount</h3>
+          <p>Book 30 days in advance and save up to 15% on any package.</p>
+          <a href="#contact" class="btn-primary">Contact our business team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Gallery ================= -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Photo gallery</span>
+          <h2>A visual journey through Sri Lanka</h2>
+          <p>The landscapes, wildlife, and culture our travellers keep coming back to.</p>
+        </div>
+
+        <div class="gallery-categories reveal">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="beaches">Beaches</button>
+          <button class="category-btn" data-category="wildlife">Wildlife</button>
+          <button class="category-btn" data-category="culture">Culture</button>
+          <button class="category-btn" data-category="mountains">Mountains</button>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <div class="gallery-item" data-category="beaches" data-caption="Beautiful Beach">
+            <img src="images/beautiful-beache.jpg" alt="Beautiful Beach" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#2f6f4e,#12241c);"></div>
+            <span><i class="fas fa-search-plus"></i> Beautiful beach</span>
+          </div>
+          <div class="gallery-item" data-category="wildlife" data-caption="Wildlife">
+            <img src="images/wildlife.jpg" alt="Wildlife" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#c1503a,#9c3d2a);"></div>
+            <span><i class="fas fa-search-plus"></i> Wildlife</span>
+          </div>
+          <div class="gallery-item" data-category="culture" data-caption="Cultural Site">
+            <img src="images/culture.jpg" alt="Cultural Site" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#c89b3c,#9c3d2a);"></div>
+            <span><i class="fas fa-search-plus"></i> Cultural site</span>
+          </div>
+          <div class="gallery-item" data-category="mountains" data-caption="Mountain View">
+            <img src="images/mountain_view.jpg" alt="Mountain View" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(160deg,#234f38,#12241c);"></div>
+            <span><i class="fas fa-search-plus"></i> Mountain view</span>
+          </div>
+          <div class="gallery-item" data-category="beaches" data-caption="Tropical Beach">
+            <img src="images/tropical_beach.jpg" alt="Tropical Beach" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#2f6f4e,#c89b3c);"></div>
+            <span><i class="fas fa-search-plus"></i> Tropical beach</span>
+          </div>
+          <div class="gallery-item" data-category="wildlife" data-caption="Elephant">
+            <img src="images/elephant.jpg" alt="Elephant" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#9c3d2a,#12241c);"></div>
+            <span><i class="fas fa-search-plus"></i> Elephant</span>
+          </div>
+          <div class="gallery-item" data-category="culture" data-caption="Ancient Temple">
+            <img src="images/ancient_temple.jpg" alt="Ancient Temple" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#234f38,#c89b3c);"></div>
+            <span><i class="fas fa-search-plus"></i> Ancient temple</span>
+          </div>
+          <div class="gallery-item" data-category="mountains" data-caption="Tea Plantation">
+            <img src="images/tea_plantation.jpg" alt="Tea Plantation" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#2f6f4e,#234f38);"></div>
+            <span><i class="fas fa-search-plus"></i> Tea plantation</span>
+          </div>
+          <div class="gallery-item" data-category="beaches" data-caption="Coastal View">
+            <img src="images/coastal_view.jpg" alt="Coastal View" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#c1503a,#c89b3c);"></div>
+            <span><i class="fas fa-search-plus"></i> Coastal view</span>
+          </div>
+          <div class="gallery-item" data-category="wildlife" data-caption="Bird">
+            <img src="images/bird.jpg" alt="Bird" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#c89b3c,#234f38);"></div>
+            <span><i class="fas fa-search-plus"></i> Bird</span>
+          </div>
+          <div class="gallery-item" data-category="culture" data-caption="Traditional Dance">
+            <img src="images/traditional_dance.jpg" alt="Traditional Dance" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#9c3d2a,#c1503a);"></div>
+            <span><i class="fas fa-search-plus"></i> Traditional dance</span>
+          </div>
+          <div class="gallery-item" data-category="mountains" data-caption="Waterfall">
+            <img src="images/waterfall.jpg" alt="Waterfall" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(160deg,#12241c,#2f6f4e);"></div>
+            <span><i class="fas fa-search-plus"></i> Waterfall</span>
+          </div>
+          <div class="gallery-item" data-category="mountains" data-caption="Hill Country">
+            <img src="images/hill_country.jpg" alt="Hill Country" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+            <div class="gallery-item-fallback" style="background:linear-gradient(135deg,#234f38,#9c3d2a);"></div>
+            <span><i class="fas fa-search-plus"></i> Hill country</span>
+          </div>
+        </div>
+
+        <p class="gallery-empty" id="gallery-empty">No photos in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <div class="lightbox-panel" id="lightbox-panel">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- ================= Feedback ================= -->
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Traveller feedback</span>
+          <h2>Stamped, approved, and shared</h2>
+          <p>A few notes from people who let us plan their trip.</p>
+        </div>
+
+        <div class="feedback-track">
+          <div class="feedback-card reveal">
+            <div class="feedback-stars">★★★★★</div>
+            <p class="quote">"Every stop felt hand-picked. Our guide knew the tea estate owners by name."</p>
+            <div class="feedback-who">
+              <div class="feedback-avatar">JM</div>
+              <div><strong>Julia M.</strong><span>Tea Country Adventure</span></div>
+            </div>
+          </div>
+
+          <div class="feedback-card reveal">
+            <div class="feedback-stars">★★★★★</div>
+            <p class="quote">"Saw a leopard on our first safari drive. Still can't quite believe it."</p>
+            <div class="feedback-who">
+              <div class="feedback-avatar">DR</div>
+              <div><strong>Daniel R.</strong><span>Wildlife Safari</span></div>
+            </div>
+          </div>
+
+          <div class="feedback-card reveal">
+            <div class="feedback-stars">★★★★★</div>
+            <p class="quote">"Flexible, honest pricing, and they answered messages within the hour."</p>
+            <div class="feedback-who">
+              <div class="feedback-avatar">AK</div>
+              <div><strong>Aisha K.</strong><span>Ultimate Sri Lanka Tour</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Contact ================= -->
+    <section class="contact dark-section" id="contact">
+      <div class="container">
+        <div class="contact-info reveal">
+          <span class="eyebrow">Get in touch</span>
+          <h2>Let's plan your route</h2>
+          <p>Tell us roughly where and when, and we'll come back with a first draft itinerary — no obligation.</p>
+
+          <div class="contact-detail">
+            <i class="fas fa-location-dot"></i>
+            <div><strong>Office</strong><span>Colombo, Sri Lanka</span></div>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-phone"></i>
+            <div><strong>Phone</strong><span>+94 11 234 5678</span></div>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <div><strong>Email</strong><span>hello@ikantravel.com</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="dates">Travel dates</label>
+              <input type="text" id="dates" placeholder="e.g. March 2027">
+            </div>
+            <div class="field">
+              <label for="travellers">Travellers</label>
+              <input type="number" id="travellers" min="1" placeholder="2">
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">What are you dreaming up?</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send message</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/final-logo.jpg" alt="Ikan Travel Logo" class="logo-img">
+          <p>Private, tailor-made journeys across Sri Lanka — planned by people who know the roads.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#packages">Packages</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Colombo, Sri Lanka</li>
+            <li>+94 11 234 5678</li>
+            <li>hello@ikantravel.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Ikan Travel. All rights reserved.</span>
+        <span>To know your self.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
