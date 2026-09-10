@@ -67,6 +67,8 @@ body::before {
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: var(--container);
   margin: 0 auto;
@@ -121,8 +123,25 @@ h1, h2, h3, h4 {
 section { position: relative; }
 
 .dark-section {
+  position: relative;
   background: var(--jungle);
   color: var(--paper-soft);
+  overflow: hidden;
+}
+.dark-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url("../images/sri-lanka-collage.jpg") center 35% / cover no-repeat;
+  opacity: 0.16;
+}
+.dark-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(16,32,26,0.75) 0%, rgba(16,32,26,0.55) 45%, rgba(16,32,26,0.85) 100%);
 }
 .dark-section .eyebrow { color: var(--gold); }
 .dark-section .eyebrow::before { background: var(--gold); }
@@ -288,13 +307,23 @@ nav.main-nav a.active::after { right: -4px; }
   overflow: hidden;
   padding-top: 90px;
 }
-
-.hero-topo {
+.hero::before {
+  content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.5;
+  z-index: 0;
+  background: url("../images/sri-lanka-collage.jpg") center 40% / cover no-repeat;
+  opacity: 0.22;
 }
-.hero-topo svg { width: 100%; height: 100%; }
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(12,26,21,0.55) 0%, rgba(12,26,21,0.4) 45%, rgba(12,26,21,0.82) 100%);
+}
+
+.hero-topo { display: none; }
 
 .hero .container {
   position: relative;
