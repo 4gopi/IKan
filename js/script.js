@@ -56,6 +56,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   revealTargets.forEach(el => revealObserver.observe(el));
 
+  /* ---------- Services accordion ---------- */
+  const serviceBlocks = document.querySelectorAll('.service-block');
+
+  serviceBlocks.forEach(block => {
+    const header = block.querySelector('.service-block-header');
+    header.addEventListener('click', () => {
+      const isActive = block.classList.contains('active');
+
+      serviceBlocks.forEach(b => {
+        b.classList.remove('active');
+        b.querySelector('.service-block-header').setAttribute('aria-expanded', 'false');
+      });
+
+      if (!isActive) {
+        block.classList.add('active');
+        header.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
   /* ---------- Package search/filter ---------- */
   const searchInput = document.getElementById('package-search');
   const packageCards = document.querySelectorAll('.package-card');
