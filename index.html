@@ -217,6 +217,26 @@
         </div>
       </div>
     </div>
+
+    <!-- Tour Package Detail Modal -->
+    <div class="tour-modal" id="tour-modal" role="dialog" aria-modal="true" aria-labelledby="tour-modal-title">
+      <div class="tour-modal-panel">
+        <button class="tour-modal-close" id="tour-modal-close" aria-label="Close">&times;</button>
+
+        <div class="tour-modal-head">
+          <span class="eyebrow" id="tour-modal-route"></span>
+          <h3 id="tour-modal-title"></h3>
+          <div class="tour-modal-meta" id="tour-modal-meta"></div>
+        </div>
+
+        <div class="tour-modal-highlights" id="tour-modal-highlights"></div>
+        <div class="tour-modal-days" id="tour-modal-days"></div>
+        <div class="tour-modal-hotels" id="tour-modal-hotels"></div>
+        <div class="tour-modal-columns" id="tour-modal-inclusions"></div>
+        <p class="tour-modal-note" id="tour-modal-note"></p>
+      </div>
+    </div>
+
     <section class="services" id="services">
       <div class="container">
         <div class="section-head reveal">
@@ -356,7 +376,7 @@
       <div class="container">
         <div class="section-head reveal">
           <span class="eyebrow">Tour packages</span>
-          <h2>Twelve routes across the island</h2>
+          <h2>Fourteen routes across the island</h2>
           <p>Every package below is a starting point — durations and stops flex to match your pace.</p>
         </div>
 
@@ -383,12 +403,12 @@
               </div>
               <div class="package-price">
                 <span class="price">Price on request</span>
-                <a href="#contact" class="btn-secondary">View details</a>
+                <button type="button" class="btn-secondary" data-tour="cultural-triangle">View details</button>
               </div>
             </div>
           </div>
 
-          <div class="package-card reveal" data-name="Beach Getaway">
+          <!-- <div class="package-card reveal" data-name="Beach Getaway">
             <div class="package-image">
               <img src="images/beach-getaway.jpg" alt="Beach Getaway" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
               <div class="package-image-fallback" style="background:linear-gradient(135deg,#c1503a,#9c3d2a);"><span>Beach Getaway</span></div>
@@ -405,6 +425,27 @@
               <div class="package-price">
                 <span class="price">Price on request</span>
                 <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="package-card reveal" data-name="South Coast Tour">
+            <div class="package-image">
+              <img src="images/beach-getaway.jpg" alt="South Coast Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#2f6f4e,#c89b3c);"><span>South Coast Tour</span></div>
+              <span class="package-image-caption">South Coast Tour</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>South Coast Tour</h3>
+              <p>Bentota's rivers, Galle's ramparts, and the beaches of Mirissa.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 6N / 7D</span>
+                <span><i class="fas fa-user-friends"></i> Private tour</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <button type="button" class="btn-secondary" data-tour="south-coast">View details</button>
               </div>
             </div>
           </div>
@@ -599,7 +640,10 @@
           </div>
 
           <div class="package-card reveal" data-name="Coastal Photo Expedition">
-            <div class="package-image" style="background:linear-gradient(135deg,#2f6f4e,#9c3d2a);"><span>Coastal Photo Trip</span></div>
+            <div class="package-image" style="background:linear-gradient(135deg,#2f6f4e,#9c3d2a);">
+              <img src="images/bentota.jpg" alt="Rama Ravana Special Tour" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#9c3d2a,#c1503a);"><span>Rama Ravana</span></div>
+              <span>Coastal Photo Trip</span></div>
             <div class="ticket-perf"></div>
             <div class="package-content">
               <h3>Coastal Photo Expedition</h3>
@@ -611,6 +655,30 @@
               <div class="package-price">
                 <span class="price">Price on request</span>
                 <a href="#contact" class="btn-secondary">View details</a>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="package-card reveal" data-name="Luxury Sri Lanka Honeymoon">
+            <div class="package-image">
+              <img src="images/day4-sigiriya-poolside-dining.jpg" alt="Luxury Sri Lanka Honeymoon" onerror="this.style.display='none'; this.nextElementSibling.classList.add('show');">
+              <div class="package-image-fallback" style="background:linear-gradient(135deg,#c89b3c,#c1503a);"><span>Luxury Honeymoon</span></div>
+              <span class="package-image-caption">Luxury Honeymoon</span>
+              <span class="package-badge"><i class="fas fa-heart"></i> Honeymoon Special</span>
+            </div>
+            <div class="ticket-perf"></div>
+            <div class="package-content">
+              <h3>Luxury Sri Lanka Honeymoon</h3>
+              <p>A private, villa-led honeymoon journey from Colombo's seafront to the Cultural Triangle and the East Coast.</p>
+              <div class="package-details">
+                <span><i class="fas fa-clock"></i> 5N / 6D</span>
+                <span><i class="fas fa-user-friends"></i> Private, couples only</span>
+              </div>
+              <div class="package-price">
+                <span class="price">Price on request</span>
+                <button type="button" class="btn-secondary" data-tour="luxury-honeymoon">View details</button>
               </div>
             </div>
           </div>
