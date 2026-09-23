@@ -333,6 +333,77 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       includes: ['5 nights\u2019 luxury accommodation', 'Daily breakfast', 'Private air-conditioned luxury car', 'English-speaking chauffeur', 'Airport arrival transfer', 'Airport departure transfer', 'All sightseeing as mentioned', 'Highway/parking charges', 'Honeymoon room decoration/amenity', 'Complimentary honeymoon cake', 'Bottled drinking water during transfers', 'All applicable government taxes/service charges where included by suppliers'],
       excludes: ['International airfare', 'Visa/ETA charges', 'Lunches and dinners unless specifically mentioned', 'Alcoholic beverages', 'Personal expenses', 'Spa treatments', 'Travel insurance', 'Optional whale-watching/boat excursions', 'Tips and gratuities']
+    },
+    'pekoe-trail': {
+      title: 'Pekoe Trail Sri Lanka',
+      route: 'Airport → Kandy → Nuwara Eliya → Horton Plains → Ohiya → Haputale → Ella → Airport',
+      meta: [
+        { icon: 'fa-clock', text: '6 Days / 5 Nights' },
+        { icon: 'fa-hiking', text: 'Trekking tour' }
+      ],
+      highlights: ['Cloud Forests', 'Pekoe Trail Trekking', 'Tea Plantations & Factories', 'Ramboda Falls', 'Horton Plains National Park', 'Nine Arch Bridge', 'Ella Gap & Little Adam\u2019s Peak'],
+      days: [
+        {
+          title: 'Airport → Kandy',
+          stay: 'Kandy',
+          items: [
+            'Airport pickup and meet your English-speaking trekking guide/driver, then drive to Kandy (approx. 3–3½ hours).',
+            'Afternoon in Kandy: Kandy Lake, Kandy city, and the Temple of the Sacred Tooth Relic, with an optional cultural dance performance in the evening.'
+          ]
+        },
+        {
+          title: 'Kandy → Nuwara Eliya',
+          stay: 'Nuwara Eliya',
+          items: [
+            'Drive from Kandy towards Nuwara Eliya, stopping en route at Ramboda Falls, a tea plantation, and a tea factory for tea tasting, with mountain viewpoints along the way.',
+            'Afternoon at leisure in the colonial hill town, with time to visit Gregory Lake, Victoria Park, or Nuwara Eliya town.'
+          ]
+        },
+        {
+          title: 'Nuwara Eliya → Horton Plains → Ohiya — Pekoe Trail highlight',
+          stay: 'Acacia Inn, Ohiya',
+          items: [
+            'Early transfer to Horton Plains National Park for the first major trekking day.',
+            'Trek from Horton Plains to Ohiya through cloud forest and mountain landscapes, past scenic viewpoints and rural mountain settlements — an excellent introduction to the high-altitude Pekoe Trail.',
+            'Arrive in Ohiya in the evening for dinner and overnight.',
+            'Exact trail routing and access conditions are confirmed with the local Trail Host before departure, as weather can affect the Horton Plains trails.'
+          ]
+        },
+        {
+          title: 'Ohiya → Haputale',
+          stay: 'Haputale',
+          items: [
+            'Trek from Ohiya to Haputale through tea plantations, panoramic mountain views, and traditional villages — one of the most scenic sections of the trail.',
+            'An optional vehicle transfer can be arranged along the way for luggage or support.',
+            'Evening at leisure in Haputale, with the option of a sunset viewpoint.'
+          ]
+        },
+        {
+          title: 'Haputale → Ella',
+          stay: 'Ella',
+          items: [
+            'Morning trek along a selected Pekoe Trail section towards Ella, through tea estates, mountain ridges, forest, and rural villages (the exact section depends on group fitness and current trail conditions).',
+            'Meet the support vehicle and continue into Ella for sightseeing depending on arrival time: Nine Arch Bridge, Ella Gap, Little Adam\u2019s Peak, or Ravana Falls.',
+            'Evening at leisure in Ella town.'
+          ]
+        },
+        {
+          title: 'Ella → Airport',
+          items: [
+            'Breakfast at the hotel, with free time in Ella depending on flight time.',
+            'Private transfer to Bandaranaike International Airport (approx. 5½–6½ hours from Ella, depending on traffic and route).'
+          ]
+        }
+      ],
+      hotels: [
+        { stop: 'Kandy — 1 night', options: 'Oak Ray Heritage or Thilanka Hotel, up to Cinnamon Citadel or Earl\u2019s Regency, depending on your preferred category.' },
+        { stop: 'Nuwara Eliya — 1 night', options: 'Heaven Seven or Oak Ray Summer Hill Breeze, up to Araliya Green Hills or Jetwing St. Andrew\u2019s, depending on your preferred category.' },
+        { stop: 'Ohiya — 1 night', options: 'Acacia Inn, a rustic mountain inn, with a boutique tea-bungalow option available at a higher category.' },
+        { stop: 'Haputale — 1 night', options: 'Melheim Resort, up to a premium tea-estate bungalow such as Thotalagala, depending on your preferred category.' },
+        { stop: 'Ella — 1 night', options: 'Oak Ray Ella Gap or Morning Dew Ella, up to EKHO Ella or 98 Acres Resort, depending on your preferred category.' }
+      ],
+      hotelNote: 'Hotels are subject to availability and may be replaced with equivalent-category properties. An optional extension is available — an overnight in Colombo before an early final-day airport transfer — recommended when the international flight departs in the morning; this turns the package into 6 Nights / 7 Days.',
+      includes: ['Selected Pekoe Trail stages', 'Experienced local trekking guide / Trail Host', 'Horton Plains National Park entrance', 'Refreshments during trekking', 'Drinking water', 'Basic trekking assistance', 'Private transportation between trail sections', '5 nights\u2019 accommodation', 'Daily breakfast', 'Trekking-day lunches', 'Dinners as specified', 'Airport pickup', 'Private air-conditioned vehicle', 'Nuwara Eliya → Horton Plains transfer', 'Trailhead transfers', 'Luggage transfers/support vehicle', 'Ella → Airport transfer']
     }
   };
 
