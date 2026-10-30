@@ -689,7 +689,366 @@ document.addEventListener('DOMContentLoaded', () => {
         { stop: 'Yala/Tissamaharama', options: 'Peacock Reach, Blue Turtle Hotel, or similar, up to Kithala Resort or Rain Tree by Oak Ray, depending on your preferred category.' }
       ],
       hotelNote: 'Hotels are subject to availability and may be replaced with equivalent-category properties. For a more wildlife-focused version of this tour, the itinerary can be rearranged to include a morning Udawalawe safari, then a morning and afternoon Yala safari on the full day — three safari drives across the four days.'
-    }
+    },
+    'rama-ravana': {
+      title: 'Rama Ravana Ramayana Trail',
+      route: 'Airport → Kandy → Nuwara Eliya → Ella → Colombo → Airport',
+      meta: [
+        { icon: 'fa-clock', text: '7 Days / 6 Nights' },
+        { icon: 'fa-om', text: 'Heritage & pilgrimage' }
+      ],
+      highlights: ['Sri Bhakta Hanuman Temple', 'Seetha Amman Kovil', 'Gayathri Peedam', 'Divurumpola Temple', 'Ravana Falls & Ravana Cave', 'Panchamuga Anjaneyar Temple'],
+      days: [
+        { title: 'Arrival in Sri Lanka and Kandy', stay: 'Kandy', items: [
+          'Airport pickup and private transfer to Kandy.',
+          'Visit Kandy city and the Temple of the Sacred Tooth Relic, if time permits, and relax at Kandy Lake.'
+        ]},
+        { title: 'Kandy → Nuwara Eliya via Ramboda', stay: 'Nuwara Eliya', items: [
+          'Depart after breakfast for the scenic hill country.',
+          'Visit Sri Bhakta Hanuman Temple, associated with Hanuman\u2019s search for Sita in local Ramayana tradition.',
+          'Stop at Ramboda Falls and visit a tea plantation and factory, then arrive in Nuwara Eliya and enjoy the cool climate.'
+        ]},
+        { title: 'Seetha Eliya and Sacred Hill-Country Sites', stay: 'Nuwara Eliya', items: [
+          'Visit Seetha Amman Kovil, traditionally associated with Sita\u2019s captivity.',
+          'Explore the nearby stream and the area associated with Ashoka Vatika in local tradition.',
+          'Visit Gayathri Peedam, linked in Ramayana tradition to Ravana\u2019s son Meghanada.',
+          'Optional visit to Hakgala Botanical Garden.'
+        ]},
+        { title: 'Divurumpola Temple and Transfer to Ella', stay: 'Ella', items: [
+          'Visit Divurumpola Temple, traditionally associated with Sita\u2019s trial by fire.',
+          'Continue through the scenic mountain countryside towards Ella, with an optional stop at Dowa Rock Temple for its ancient rock-cut Buddha image.'
+        ]},
+        { title: 'Ravana Falls and Ravana Cave', stay: 'Ella', items: [
+          'Visit Ravana Falls, associated with Ravana in local legend.',
+          'Explore Ravana Cave, reached by a steep uphill staircase with many steps, and enjoy the mountain views around Ella Gap.',
+          'Optional visit to Nine Arch Bridge or Little Adam\u2019s Peak.'
+        ]},
+        { title: 'Ella → Colombo and Ramayana Heritage', stay: 'Colombo', items: [
+          'Breakfast and depart for Colombo, visiting Panchamuga Anjaneyar Temple, dedicated to the five-faced form of Hanuman.',
+          'If time permits, visit Kelaniya Raja Maha Viharaya, associated with Vibhishana in Ramayana tradition.'
+        ]},
+        { title: 'Colombo → Airport', items: [
+          'Breakfast and check-out, with free time for shopping or a short Colombo city visit depending on flight time.',
+          'Private transfer to Bandaranaike International Airport for departure.'
+        ]}
+      ],
+      hotels: [
+        { stop: 'Kandy \u2014 1 night', options: 'Oak Ray Regency or similar, up to Cinnamon Citadel Kandy or similar, depending on your preferred category.' },
+        { stop: 'Nuwara Eliya \u2014 2 nights', options: 'Oak Ray Summer Hill Breeze or similar, up to Araliya Green City or similar, depending on your preferred category.' },
+        { stop: 'Ella \u2014 2 nights', options: 'Ella Gap or similar, up to Morning Dew Boutique Hotel or similar, depending on your preferred category.' },
+        { stop: 'Colombo \u2014 1 night', options: 'A standard or superior city hotel, depending on your preferred category.' }
+      ],
+      hotelNote: 'Hotels are subject to availability and may be replaced with equivalent-category properties. The Ravana Cave climb involves many steps, and temple visiting times and traffic are confirmed before the final Ella to Colombo day.',
+      includes: ['Six nights\u2019 accommodation', 'Daily breakfast', 'Private air-conditioned vehicle and airport transfers', 'English-speaking chauffeur-guide', 'Sightseeing stops listed in the final programme'],
+      excludes: ['International airfare and visa fees', 'Lunches and dinners unless specified', 'Entrance tickets, temple donations and special puja charges', 'Personal expenses, tips and travel insurance']
+    },
+    'hiking-trail': {
+      title: 'Sri Lanka Hiking Trail Adventure',
+      route: 'Negombo → Kandy → Hatton → Nuwara Eliya → Haputale → Ella → Colombo/Airport',
+      meta: [
+        { icon: 'fa-clock', text: '7 Days / 6 Nights' },
+        { icon: 'fa-hiking', text: 'Moderate to challenging' }
+      ],
+      highlights: ['Hanthana Hills', 'Pekoe Trail Tea Estates', 'Horton Plains & World\u2019s End', 'Ella Rock', 'Little Adam\u2019s Peak', 'Nine Arch Bridge'],
+      days: [
+        { title: 'Arrival and Hanthana Hiking Experience', stay: 'Kandy', items: [
+          'Airport meet and greet, then a private transfer to Kandy and hotel check-in.',
+          'Afternoon guided hike in the Hanthana hills, subject to arrival time and trail conditions, with panoramic views of Kandy and the surrounding mountains (approx. 2\u20133 hours).'
+        ]},
+        { title: 'Kandy → Hatton: Tea Estate Trek', stay: 'Hatton', items: [
+          'Transfer towards the Hatton tea country and begin a guided walk along a suitable section of the Pekoe Trail, chosen according to current access and trail conditions.',
+          'Walk through tea plantations, small estate settlements and rolling green hills, with a tea factory visit if operating hours permit (approx. 3\u20135 hours).'
+        ]},
+        { title: 'Horton Plains and World\u2019s End', stay: 'Nuwara Eliya', items: [
+          'Early-morning departure for Horton Plains National Park to complete the approximately 9 km circular trail, visiting World\u2019s End viewpoint and Baker\u2019s Falls across high-altitude grasslands and cloud forest (approx. 3\u20134 hours).',
+          'Transfer to Nuwara Eliya and relax after the hike.'
+        ]},
+        { title: 'High-Country Pekoe Trail Adventure', stay: 'Haputale', items: [
+          'Early breakfast and transfer to the trail starting point, then trek a section of the Pekoe Trail around the Horton Plains\u2013Udaweriya or Haputale area.',
+          'Experience remote tea estates, mountain ridges, rural scenery and expansive valley views, with a packed lunch on the trail (approx. 4\u20136 hours).'
+        ]},
+        { title: 'Haputale → Ella and Ella Rock Trek', stay: 'Ella', items: [
+          'Travel towards Ella and undertake the Ella Rock hike with a local guide, with views of valleys, tea plantations and the Ella Gap (approx. 3\u20134 hours; the route can be demanding in wet conditions).',
+          'Visit Ravana Falls, subject to time and access, and enjoy the evening in Ella town.'
+        ]},
+        { title: 'Little Adam\u2019s Peak and Nine Arch Bridge', stay: 'Ella', items: [
+          'Early-morning hike to Little Adam\u2019s Peak for panoramic views, then visit Nine Arch Bridge and walk the surrounding paths where safe and permitted (approx. 2\u20133 hours in total).',
+          'Optional extra countryside walk or tea-estate visit, with free time for caf\u00e9s, shopping and photography.'
+        ]},
+        { title: 'Ella → Colombo / Airport', items: [
+          'Breakfast and hotel check-out, then a private transfer to Colombo or Bandaranaike International Airport.',
+          'Optional stops for refreshments and photographs, depending on flight schedule.'
+        ]}
+      ],
+      hotels: [
+        { stop: 'Kandy \u2014 1 night', options: 'Oak Ray Regency or similar, up to Cinnamon Citadel Kandy or similar, depending on your preferred category.' },
+        { stop: 'Hatton \u2014 1 night', options: 'A standard guesthouse or estate hotel, up to The Argyle or similar, depending on your preferred category.' },
+        { stop: 'Nuwara Eliya \u2014 1 night', options: 'Oak Ray Summer Hill Breeze or similar, up to Araliya Green City or similar, depending on your preferred category.' },
+        { stop: 'Haputale \u2014 1 night', options: 'A local guesthouse or hotel, up to Melheim Resort or similar, depending on your preferred category.' },
+        { stop: 'Ella \u2014 2 nights', options: 'Ella Gap or similar, up to Morning Dew Boutique Hotel or similar, depending on your preferred category.' }
+      ],
+      hotelNote: 'Hiking times are planning estimates and routes are adjusted for fitness, weather and trail conditions. With several consecutive hiking days, a good level of fitness is recommended. Some Pekoe Trail stages need trail passes, so the exact stages are confirmed before travel.',
+      includes: ['Six nights\u2019 accommodation in the selected hotel category', 'Daily breakfast', 'Private air-conditioned vehicle and airport transfers', 'Local hiking guide for the scheduled hikes', 'Packed lunch on the longer trekking days', 'Trail-pass and park-entry arrangements, where included'],
+      excludes: ['International air tickets and visa charges', 'Lunches and dinners except where specified', 'National park, trail-pass and other entrance charges unless included', 'Tips, personal expenses, travel insurance and optional activities', 'Additional transport or accommodation arising from weather-related route changes']
+    },
+    'kovil-pilgrimage': {
+      title: 'Sri Lanka Hindu Kovil Pilgrimage Tour',
+      route: 'Airport → Munneswaram → Trincomalee → Jaffna → Mannar → Anuradhapura → Colombo → Airport',
+      meta: [
+        { icon: 'fa-clock', text: '7 Days / 6 Nights' },
+        { icon: 'fa-om', text: 'Pilgrimage' }
+      ],
+      highlights: ['Munneswaram Kovil', 'Thirukoneswaram Kovil', 'Nallur Kandaswamy Kovil', 'Naguleswaram & Keerimalai', 'Thiruketheeswaram Kovil', 'Colombo Kovils'],
+      days: [
+        { title: 'Airport / Negombo \u2192 Munneswaram \u2192 Manavari', stay: 'Chilaw / Negombo', items: [
+          'Meet and greet at Bandaranaike International Airport.',
+          'Visit Munneswaram Kovil, a major Shiva temple complex, then Manavari Kovil, associated with the Ramayana tradition.',
+          'Participate in puja if the timing permits.'
+        ]},
+        { title: 'Chilaw → Trincomalee', stay: 'Trincomalee', items: [
+          'Breakfast and transfer to Trincomalee.',
+          'Visit Thirukoneswaram Kovil, one of Sri Lanka\u2019s celebrated Shiva temples, overlooking the Indian Ocean, and Pathirakali Amman Kovil.',
+          'Explore the surroundings of Swami Rock and Fort Frederick, and attend evening worship where the temple schedule permits.'
+        ]},
+        { title: 'Trincomalee → Jaffna', stay: 'Jaffna', items: [
+          'Breakfast and travel to Jaffna by private vehicle, then hotel check-in.',
+          'Visit Nallur Kandaswamy Kovil, one of the most important Murugan temples on the island, and take part in the evening puja, subject to timing.',
+          'An introduction to Jaffna\u2019s Tamil Hindu heritage.'
+        ]},
+        { title: 'Jaffna Kovil Pilgrimage', stay: 'Jaffna', items: [
+          'Early visit to Nallur Kandaswamy Kovil for morning worship, if desired.',
+          'Visit Naguleswaram Kovil, a revered Shiva shrine, and the sacred Keerimalai area, then continue to Nilavarai Bottomless Well.',
+          'Return to Jaffna town for free time or additional temple visits.'
+        ]},
+        { title: 'Jaffna → Anuradhapura via Mannar', stay: 'Anuradhapura', items: [
+          'Breakfast and depart for Mannar, allowing extra time for the longer drive.',
+          'Visit Thiruketheeswaram Kovil, one of the traditional Pancha Ishwarams dedicated to Lord Shiva, then continue to Anuradhapura.',
+          'If the schedule is tight, the transfer can run directly from Jaffna to Anuradhapura, omitting Mannar.'
+        ]},
+        { title: 'Anuradhapura → Colombo', stay: 'Colombo', items: [
+          'Breakfast and depart for Colombo.',
+          'Visit Sri Ponnambalavaneswarar Kovil or another suitable Colombo temple depending on arrival time, with an optional visit to New Kathiresan Kovil or Sri Kaileswaram Temple.'
+        ]},
+        { title: 'Colombo Kovil Visit and Departure', items: [
+          'Breakfast and check-out, with a morning worship visit to a nearby Colombo kovil if flight timing permits.',
+          'Transfer to Bandaranaike International Airport for departure.'
+        ]}
+      ],
+      hotels: [
+        { stop: 'Chilaw / Negombo \u2014 1 night', options: 'A standard or superior hotel, depending on your preferred category.' },
+        { stop: 'Trincomalee \u2014 1 night', options: 'A standard or superior Trincomalee-area hotel, depending on your preferred category.' },
+        { stop: 'Jaffna \u2014 2 nights', options: 'A standard city hotel, up to Jetwing Jaffna or similar, depending on your preferred category.' },
+        { stop: 'Anuradhapura \u2014 1 night', options: 'A standard or superior hotel, depending on your preferred category.' },
+        { stop: 'Colombo \u2014 1 night', options: 'A standard or superior city hotel, depending on your preferred category.' }
+      ],
+      hotelNote: 'The route is fairly intensive, particularly the Jaffna\u2013Mannar\u2013Anuradhapura journey, so driving times and puja schedules are confirmed before the programme is finalised. Please dress modestly, remove footwear where required, and follow each temple\u2019s photography rules. Temple offerings and special pujas are arranged directly with the relevant kovils.'
+    },
+    'coastal-photography': {
+      title: 'Sri Lanka Coastal Photography Tour',
+      route: 'Negombo → Bentota → Galle → Weligama → Mirissa → Colombo / Airport',
+      meta: [
+        { icon: 'fa-clock', text: '5 Days / 4 Nights' },
+        { icon: 'fa-camera', text: 'Photography tour' }
+      ],
+      highlights: ['Bentota Sunset', 'Koggala Stilt Fishermen', 'Weligama Bay', 'Coconut Tree Hill', 'Galle Fort & Lighthouse', 'Unawatuna & Hikkaduwa'],
+      days: [
+        { title: 'Arrival and Bentota Coastal Photography', stay: 'Bentota', items: [
+          'Airport pickup and transfer to Bentota, with a stop at a scenic coastal viewpoint if arrival time allows.',
+          'Photograph palm-lined beaches, fishing boats and the tropical shoreline, and capture the sunset over the beach.'
+        ]},
+        { title: 'Koggala, Weligama and Mirissa', stay: 'Mirissa / Weligama', items: [
+          'Early departure for the southern coast to photograph traditional stilt-fishing scenes at Koggala, with permission and an agreed fee where required.',
+          'Visit Weligama Bay for fishing boats, beach life and wide coastal compositions, then explore Mirissa Beach.',
+          'Sunset shoot at Coconut Tree Hill. Photography focus: human-interest, silhouettes, wide-angle seascapes and golden-hour portraits.'
+        ]},
+        { title: 'Galle Fort and Unawatuna', stay: 'Galle / Unawatuna', items: [
+          'Sunrise photography at Mirissa or a nearby beach, then transfer to Galle to explore Galle Fort.',
+          'Photograph the lighthouse, fort ramparts, colonial architecture, old streets and local life, then visit Unawatuna for coastal landscapes and beach scenes.',
+          'Sunset photography at a suitable ocean-facing viewpoint. Commercial shoots or drone photography at Galle Fort may need advance permission.'
+        ]},
+        { title: 'Hikkaduwa and Coastal Village Life', stay: 'Hikkaduwa / Galle', items: [
+          'Early-morning beach shoot, then travel towards Hikkaduwa for beach landscapes, fishing boats and coastal activity.',
+          'Optional visit to a local fish market (permission is asked before photographing people), plus coastline, reef scenery from safe viewpoints and local street scenes.',
+          'A final sunset session, selected according to weather and light.'
+        ]},
+        { title: 'Sunrise Shoot and Airport Departure', items: [
+          'Early-morning sunrise photography at a nearby beach, then breakfast and check-out.',
+          'Transfer to Bandaranaike International Airport, with an optional stop for refreshments or a short coastal shoot if flight time permits.'
+        ]}
+      ],
+      hotels: [
+        { stop: 'Bentota \u2014 1 night', options: 'A standard beach hotel, up to a superior beach resort, depending on your preferred category.' },
+        { stop: 'Mirissa / Weligama \u2014 1 night', options: 'A standard guesthouse or hotel, up to a superior boutique hotel, depending on your preferred category.' },
+        { stop: 'Galle / Unawatuna \u2014 2 nights', options: 'A standard hotel, up to a superior beach or boutique hotel, depending on your preferred category.' }
+      ],
+      hotelNote: 'Hotels with easy beach access are prioritised so guests can reach photography locations before sunrise. The south and southwest coast generally offer the most favourable conditions from November to April, although weather varies and photography can be rewarding throughout the year.',
+      includes: ['4 nights\u2019 accommodation with daily breakfast', 'Private air-conditioned vehicle and airport transfers', 'Flexible stops for sunrise and sunset photography', 'English-speaking chauffeur-guide', 'Assistance coordinating local photography experiences'],
+      excludes: ['International airfare', 'Lunches and dinners', 'Entrance charges', 'Negotiated local photography fees', 'Professional photography guide', 'Drone permits', 'Equipment hire', 'Tips and personal expenses']
+    },
+    'sl-10n-11d': {
+  title: 'Sri Lanka Grand Discovery',
+  route: 'Airport → Negombo → Pinnawala → Habarana/Dambulla → Sigiriya → Kandy → Nuwara Eliya → Ella → Yala → Bentota → Colombo → Airport',
+  meta: [
+    { icon: 'fa-clock', text: '11 Days / 10 Nights' },
+    { icon: 'fa-user-friends', text: 'Private vehicle, 3★ / 4★ / 5★ hotels' }
+  ],
+  highlights: ['Pinnawala Elephant Orphanage', 'Sigiriya Rock Fortress', 'Dambulla Cave Temple', 'Temple of the Sacred Tooth Relic', 'Hill Country Scenic Train', 'Nine Arch Bridge & Little Adam\u2019s Peak', 'Yala Safari', 'Bentota & Colombo'],
+  days: [
+    { title: 'Airport → Negombo', stay: 'Negombo', items: [
+      'Arrival at Bandaranaike International Airport, meet & greet, and transfer to Negombo.',
+      'Check in and relax, with the evening free to explore Negombo beach and the Dutch Canal area.'
+    ]},
+    { title: 'Negombo → Pinnawala → Habarana/Dambulla', stay: 'Habarana / Dambulla', items: [
+      'After breakfast, visit the Pinnawala Elephant Orphanage and, timing permitting, see the elephants taken to the river at around 2.00 pm.',
+      'Continue to Habarana/Dambulla (approx. 5\u20136 hours of driving excluding sightseeing).'
+    ]},
+    { title: 'Sigiriya Rock Fortress', stay: 'Habarana / Dambulla', items: [
+      'Early breakfast, then a morning visit to the UNESCO-listed Sigiriya Rock Fortress: the water gardens, boulder gardens, frescoes, Mirror Wall, Lion\u2019s Paw and the summit.',
+      'Optional village visit and traditional Sri Lankan lunch, then return to Habarana/Dambulla.'
+    ]},
+    { title: 'Habarana/Dambulla → Kandy', stay: 'Kandy', items: [
+      'After breakfast, visit the UNESCO-listed Dambulla Cave Temple.',
+      'Continue to Kandy (approx. 3\u20134 hours) for sightseeing: the Temple of the Sacred Tooth Relic, Kandy Lake and Kandy city, with an optional cultural dance show.'
+    ]},
+    { title: 'Kandy → Nuwara Eliya', stay: 'Nuwara Eliya', items: [
+      'After breakfast, travel to Nuwara Eliya (approx. 3\u20134 hours) with stops at a tea plantation, a tea factory with tea tasting, Ramboda Falls and scenic mountain roads.',
+      'Evening at Gregory Lake, Victoria Park, Nuwara Eliya town and its colonial architecture.'
+    ]},
+    { title: 'Nuwara Eliya → Ella by Train', stay: 'Ella', items: [
+      'One of the highlights of the tour: the scenic hill-country train from Nanu Oya to Ella (approx. 3\u20134 hours depending on service), in 1st, 2nd or 3rd class subject to availability.',
+      'Transfer to the hotel on arrival in Ella, with the evening free.'
+    ]},
+    { title: 'Ella Adventure / Flying Ravana', stay: 'Ella', items: [
+      'Ella sightseeing: Nine Arch Bridge, Little Adam\u2019s Peak, Ravana Falls and Ella Gap.',
+      'Optional Flying Ravana adventure activities: mega zipline, mega jump, Flying Ravana swing, rappelling and other adventure packages.'
+    ]},
+    { title: 'Ella → Yala', stay: 'Yala / Tissamaharama', items: [
+      'After breakfast, travel towards Yala/Tissamaharama (approx. 3\u20134 hours).',
+      'Optional evening Yala safari, recommended from about 2.00\u20132.30 pm to 6.00 pm, with possible sightings of leopards, elephants, sloth bears, crocodiles, deer, buffalo and numerous bird species.'
+    ]},
+    { title: 'Yala → Bentota', stay: 'Bentota', items: [
+      'After breakfast, travel to Bentota (approx. 5\u20136 hours).',
+      'Depending on arrival time, optional stops include Galle Fort, Hikkaduwa, a turtle hatchery and the Madu River. Check in on arrival at Bentota.'
+    ]},
+    { title: 'Bentota → Colombo', stay: 'Colombo', items: [
+      'Optional Bentota activities after breakfast: a Madu River boat safari, water sports, a turtle conservation project or beach leisure.',
+      'Continue to Colombo (approx. 2\u20132.5 hours) for a city tour: Galle Face Green, Independence Square, Colombo Fort, Pettah, an optional Lotus Tower visit and shopping.'
+    ]},
+    { title: 'Colombo → Airport', items: [
+      'After breakfast, free time depending on your flight, then the airport transfer and departure.'
+    ]}
+  ],
+  hotels: [
+    { stop: 'Negombo \u2014 1 night', options: '3\u2605: Hotel J or Beacon Beach. 4\u2605: Jetwing Sea or Camelot Beach. 5\u2605: Jetwing Blue, Jetwing Lagoon or Sentido Heritance Negombo.' },
+    { stop: 'Habarana / Dambulla \u2014 2 nights', options: '3\u2605: Sigiriya Jungles or Pelwehera Village Resort. 4\u2605: Amaya Lake Dambulla or Jetwing Lake. 5\u2605: Cinnamon Lodge Habarana or Heritance Kandalama.' },
+    { stop: 'Kandy \u2014 1 night', options: '3\u2605: Earl\u2019s Regent or Oak Ray Regency. 4\u2605: Grand Kandyan or Radisson Hotel Kandy. 5\u2605: Earl\u2019s Regency or The Golden Crown.' },
+    { stop: 'Nuwara Eliya \u2014 1 night', options: '3\u2605: Heaven Seven or Oak Ray Summer Hill Breeze. 4\u2605: Araliya Green Hills or Galway Heights. 5\u2605: Araliya Green City or Golden Ridge Hotel.' },
+    { stop: 'Ella \u2014 2 nights', options: '3\u2605: Oak Ray Ella Gap or Ella Flower Garden. 4\u2605: 98 Acres Resort or Mountain Heavens. 5\u2605: EKHO Ella, Morning Dew or a luxury boutique equivalent.' },
+    { stop: 'Yala / Tissamaharama \u2014 1 night', options: '3\u2605: Ekho Safari or Blue Turtle. 4\u2605: Cinnamon Wild Yala or Kithala Resort. 5\u2605: DoubleTree by Hilton Weerawila or Jetwing Yala.' },
+    { stop: 'Bentota \u2014 1 night', options: '3\u2605: Hibiscus Beach or Amal Beach. 4\u2605: Avani+ Bentota or EKHO Surf. 5\u2605: Cinnamon Bentota Beach or Taj Bentota Resort & Spa.' },
+    { stop: 'Colombo \u2014 1 night', options: '3\u2605: Fair View Hotel. 4\u2605: Colombo Court or Radisson Colombo. 5\u2605: Cinnamon Life, Shangri-La Colombo, ITC Ratnadipa or Hilton Colombo.' }
+  ],
+  hotelNote: 'Hotels are subject to availability and may be replaced with equivalent-category properties. The tour runs on a private vehicle with a brand-new crossover SUV suggested, and the scenic train is subject to seat availability.',
+  includes: ['10 nights\u2019 accommodation in your selected hotel category, twin/triple sharing', 'Daily breakfast and dinner (half board)', 'Private air-conditioned vehicle with an experienced English-speaking chauffeur/driver', 'Airport meet & greet and arrival/departure transfers', 'All sightseeing and intercity transfers as per the itinerary', 'Fuel, parking and highway charges', 'Scenic train journey Nanu Oya \u2192 Ella, subject to seat availability', 'Entrance fees as set out in the final quotation', 'Applicable hotel taxes and service charges', '24-hour local assistance throughout the tour'],
+  excludes: ['International airfare', 'Sri Lanka visa / ETA charges unless mentioned in the quotation', 'Travel insurance', 'Lunches unless specifically mentioned', 'Yala National Park safari (offered as an optional supplement)', 'Flying Ravana adventure activities (optional)', 'Other optional excursions and activities', 'Beverages, alcoholic drinks and mineral water beyond the vehicle allowance', 'Personal expenses such as laundry, calls, room service, mini-bar, shopping and spa treatments', 'Camera/video charges where applicable', 'Tips and gratuities', 'Early check-in / late check-out unless agreed', 'Train upgrades beyond the included class', 'Room upgrades such as sea view, lake view, suites or villas', 'Gala dinners and compulsory festive supplements']
+},
+'tea-country': {
+  title: 'Ceylon Tea Country Adventure \u2014 Tea, Trails & Mountains',
+  route: 'Airport → Kandy → Loolkandura/Kondagala → Nuwara Eliya → Horton Plains → Haputale → Ella → Airport',
+  meta: [
+    { icon: 'fa-clock', text: '5 Days / 4 Nights' },
+    { icon: 'fa-hiking', text: 'Tea & trekking' }
+  ],
+  highlights: ['Loolkandura Tea Experience', 'Kondagala Hike', 'Horton Plains & World\u2019s End', 'Pedro Tea Factory', 'Lipton\u2019s Seat', 'Nine Arch Bridge', 'Optional Scenic Train'],
+  days: [
+    { title: 'Airport → Kandy', stay: 'Kandy', items: [
+      'Airport pickup and transfer to Kandy (approx. 3\u00bd\u20134 hours) with scenic stops en route.',
+      'Kandy city tour: the Temple of the Sacred Tooth Relic and Kandy Lake, with an optional cultural dance show.',
+      'Adventure option: a short evening walk around the Udawattakele forest area.'
+    ]},
+    { title: 'Kandy → Loolkandura → Kondagala → Nuwara Eliya', stay: 'Nuwara Eliya', items: [
+      'The signature tea-adventure day. Depart Kandy at around 8.00 am for Loolkandura, associated with the beginnings of commercial Ceylon tea, for a plantation walk, a look at Ceylon tea history, tea tasting and local interaction.',
+      'Continue to Kondagala for a short mountain and tea-estate hike (approx. 1\u00bd\u20132\u00bd hours depending on route and group fitness).',
+      'Afternoon drive to Nuwara Eliya, stopping at Ramboda Falls, tea plantation viewpoints and a tea shop, then relax in the cool climate of Nuwara Eliya, at around 1,868 m elevation.'
+    ]},
+    { title: 'Horton Plains → Tea Factory → Nuwara Eliya', stay: 'Nuwara Eliya', items: [
+      'Early start (breakfast around 5.30 am, departure about 6.00 am) for the approximately 9 km circular Horton Plains trail: World\u2019s End, Little World\u2019s End, Baker\u2019s Falls, montane forest and grassland landscapes (approx. 3\u20134 hours).',
+      'Afternoon visit to Pedro Tea Factory: a tea plantation walk, a tea-plucking experience, the factory visit, tea tasting and a look at how tea is processed.',
+      'Evening at Gregory Lake, Nuwara Eliya town and its colonial buildings, with an optional strawberry farm visit.'
+    ]},
+    { title: 'Nuwara Eliya → Haputale → Lipton\u2019s Seat → Ella', stay: 'Ella', items: [
+      'After breakfast, check out and drive to Haputale through tea plantations, mountain passes, waterfalls and estate villages.',
+      'Visit Lipton\u2019s Seat, one of the most famous tea-country viewpoints, with an optional short hike, tea plantation walk, photography and a visit to Dambatenne Tea Factory.',
+      'Continue to Ella and choose one adventure: easy (Nine Arch Bridge, Ella town, Ravana Falls), adventure (Little Adam\u2019s Peak, Nine Arch Bridge, tea plantation walk) or premium adventure (Ella Rock hike, Nine Arch Bridge, sunset viewpoint).'
+    ]},
+    { title: 'Ella → Scenic Train / Transfer → Airport', items: [
+      'Choose between the scenic hill-country train from Ella to a selected station, subject to train schedules and ticket availability, with your private vehicle meeting you at the destination for the airport transfer, or a private vehicle direct from Ella to Colombo/the airport.',
+      'The hill-country railway was originally built to carry tea from the plantations towards Colombo, which makes the journey a fitting end to a tea-country tour.'
+    ]}
+  ],
+  hotels: [
+    { stop: 'Kandy \u2014 1 night', options: '3\u2605: Oak Ray Regency, Thilanka Hotel or Senani Hotel. 4\u2605: Amaya Hills, Radisson Hotel Kandy or Cinnamon Citadel.' },
+    { stop: 'Nuwara Eliya \u2014 2 nights', options: '3\u2605: Oak Ray Summer Hill Breeze or similar. 4\u2605: Araliya Green Hills Hotel and Galway Heights Hotel, with Oliphant Boutique Villa by Amaya as a more upscale option.' },
+    { stop: 'Ella \u2014 1 night', options: '3\u2605: a boutique hotel or similar. 4\u2605: a boutique resort or similar.' }
+  ],
+  hotelNote: 'Hotels are subject to availability and may be replaced with equivalent-category properties. Dinner is included on the nights in Kandy, Nuwara Eliya and Ella. Hiking times are estimates and routes are adjusted for fitness, weather and trail conditions.'
+},
+'misty': {
+  title: 'The Best With Nature Misty',
+  route: 'Negombo → Kandy → Mandaram Nuwara → Nuwara Eliya → Ella → Ratnapura → Colombo → Airport',
+  meta: [
+    { icon: 'fa-clock', text: '10 Days / 9 Nights' },
+    { icon: 'fa-user-friends', text: 'Private tour' }
+  ],
+  highlights: ['Misty Mountains to Golden Beaches', 'UNESCO Sites & Tea Plantations', 'Mandaram Nuwara', 'Scenic Train Rides & Viewpoints', 'Lipton\u2019s Seat', 'Nine Arches Bridge', 'Ratnapura Gem Capital'],
+  days: [
+    { title: 'Arrival in Negombo', stay: 'Negombo', items: [
+      'Arrive at Bandaranaike International Airport and transfer to your hotel in Negombo.',
+      'Relax on the beach, enjoy fresh seafood and watch the sunset at Negombo Lagoon.',
+      'Optional: Dutch Fort and a canal boat ride.'
+    ]},
+    { title: 'Negombo → Kandy', stay: 'Kandy', items: [
+      'Scenic drive from Negombo to Kandy.',
+      'Visit the Temple of the Sacred Tooth Relic, walk around Kandy Lake and explore the Royal Botanical Gardens in Peradeniya.',
+      'Evening option: a cultural dance show.'
+    ]},
+    { title: 'Kandy → Mandaram Nuwara', stay: 'Mandaram Nuwara', items: [
+      'Drive to Mandaram Nuwara, the \u201cmisty city beneath the mountains\u201d.',
+      'Visit scenic waterfalls such as Kolapathana Ella, with a local village walk or short hike.',
+      'Relax in a peaceful, off-the-beaten-track highland hideaway.'
+    ]},
+    { title: 'Mandaram Nuwara → Nuwara Eliya', stay: 'Nuwara Eliya', items: [
+      'Transfer to Nuwara Eliya, known as \u201cLittle England\u201d.',
+      'Explore tea plantations and visit a tea factory, then see Gregory Lake and Victoria Park.',
+      'Walk through the colonial town.'
+    ]},
+    { title: 'Nuwara Eliya → Haputale → Ella', stay: 'Ella', items: [
+      'Drive to Haputale with a stop at the Lipton\u2019s Seat viewpoint.',
+      'Continue to Ella along misty hill roads, with an optional stop at Diyaluma Falls or Ravana Falls.'
+    ]},
+    { title: 'Ella Exploration', stay: 'Ella', items: [
+      'Hike Little Adam\u2019s Peak or Ella Rock and visit the Nine Arches Bridge.',
+      'Explore local caf\u00e9s and mountain views.',
+      'Optional: an Ayurvedic spa treatment or a cooking class.'
+    ]},
+    { title: 'Ella → Balangoda → Ratnapura', stay: 'Ratnapura', items: [
+      'Scenic drive through Balangoda, with an optional visit to Bambarakanda Falls, Sri Lanka\u2019s tallest waterfall.',
+      'Arrive in Ratnapura, the gem capital of Sri Lanka, and visit a gem mine or museum.'
+    ]},
+    { title: 'Ratnapura → Colombo', stay: 'Colombo', items: [
+      'Drive back to Colombo.',
+      'Quick city tour if time permits: Galle Face, Independence Square and Gangaramaya Temple.'
+    ]},
+    { title: 'Colombo Exploration', stay: 'Colombo', items: [
+      'A full day to explore Colombo: museums, markets and colonial architecture.',
+      'Shopping for souvenirs.'
+    ]},
+    { title: 'Departure', items: [
+      'Transfer to the airport for departure, with optional last-minute shopping if time permits.'
+    ]}
+  ],
+  includes: ['9 nights\u2019 accommodation in carefully selected hotels', 'All transportation in a private air-conditioned vehicle', 'Daily breakfast and 5 dinners', 'Entrance fees to all mentioned attractions', 'English-speaking chauffeur/guide throughout', 'All government taxes and service charges', 'Bottled water during tours']
+},
   };
 
   const tourModal = document.getElementById('tour-modal');
